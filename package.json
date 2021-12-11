@@ -1,0 +1,17 @@
+{
+  "name": "prisma-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docker": "docker-compose up -d",
+    "migrate": "prisma migrate dev",
+    "studio": "prism studio"
+  },
+  "devDependencies": {
+    "prisma": "3.6.0"
+  },
+  "dependencies": {
+    "@prisma/client": "3.6.0"
+  }
+}
